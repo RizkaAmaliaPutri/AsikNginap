@@ -128,17 +128,17 @@
     ------------------------- */
 
     .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+      margin: 80px 0; 
     }
     .featurette {
-      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      padding-top: 120px; 
+      overflow: hidden; 
     }
     .featurette-image {
-      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      margin-top: -120px; 
     }
 
-    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    
     .featurette-image.pull-left {
       margin-right: 40px;
     }
@@ -146,15 +146,13 @@
       margin-left: 40px;
     }
 
-    /* Thin out the marketing headings */
+    
     .featurette-heading {
       font-size: 50px;
       font-weight: 300;
       line-height: 1;
       letter-spacing: -1px;
     }
-
-
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
@@ -239,56 +237,46 @@
     }
     </style>
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/apple-touch-icon-144-precomposed.png'); ?>">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/apple-touch-icon-114-precomposed.png'); ?>">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/apple-touch-icon-72-precomposed.png'); ?>">
-                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/apple-touch-icon-57-precomposed.png'); ?>">
-                                   <link rel="shortcut icon" href="<?php echo site_url('ico/favicon.png');?>">
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/A144.png'); ?>">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/A114.png'); ?>">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/A72.png'); ?>">
+                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/A57.png'); ?>">
+                                   <link rel="shortcut icon" href="<?php echo site_url('ico/A32.png');?>">
   </head>
 
   <body>
 
-
-
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      
       <div class="container">
-		<h3 class="muted">
-		<p class="text-right">Asik Nginap</p>
-		</h3>
+		<p class="text-right"><img src="img/logo.jpg"class="img-rounded" /></p>
         <div class="navbar navbar-inverse">
           <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+           
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
             
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="#">Beranda</a></li>
-                <li><a href="<?php echo site_url('penginapan') ?>">Penginapan</a></li>
-				<li><a href="<?php echo site_url('kontakkami')?>">Kontak Kami</a></li>
+                <li class="active"><a href="#">BERANDA</a></li>
+                <li><a href="<?php echo site_url('penginapan') ?>">PENGINAPAN</a></li>
+				<li><a href="<?php echo site_url('kontakkami')?>">KONTAK KAMI</a></li>
 				
                   </ul>
                 </li>
               </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
+            </div>
+          </div>
+        </div>
 
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
+      </div> 
+    </div>
 
 
 
@@ -297,7 +285,7 @@
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="<?php echo site_url('img/examples/slide-01.jpg') ?>" alt="">
+          <img src="<?php echo site_url('img/examples/slide1.jpg') ?>" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Guesthouse ITS</h1>
@@ -307,7 +295,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="<?php echo site_url('img/examples/slide-02.jpg') ?>" alt="">
+          <img src="<?php echo site_url('img/examples/slide2.jpg') ?>" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Sahid Gunawangsa Hotel</h1>
@@ -317,7 +305,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="<?php echo site_url('img/examples/slide-03.jpg') ?>" alt="">
+          <img src="<?php echo site_url('img/examples/slide3.jpg') ?>" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Swiss-Belinn Manyar</h1>
@@ -359,26 +347,16 @@
           <h2>Swiss-Belinn Manyar</h2>
           <p>Swiss-Belinn Manyar posisinya disebelah barat hanya berjarak 2.15km dari kampus ITS.Selain paling dekat dengan ITS dan Unair, hotel bintang 3 ini juga menawarkan kemudahan akses dari berbagai tempat menarik di SBY.</p>
           <p><a class="btn" href="<?php echo site_url('DetailPenginapan')?>">Info Selengkapnya &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
+        </div>
+      </div>
 
-
-      
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
+    </div>
 
 
 
     <!-- Le javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="<?php echo site_url('js/jquery.js')?>"></script>
     <script src="<?php echo site_url('js/bootstrap-transition.js')?>"></script>
     <script src="<?php echo site_url('js/bootstrap-alert.js')?>"></script>
@@ -395,7 +373,7 @@
     <script>
       !function ($) {
         $(function(){
-          // carousel demo
+
           $('#myCarousel').carousel()
         })
       }(window.jQuery)

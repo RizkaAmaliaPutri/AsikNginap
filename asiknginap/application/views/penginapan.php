@@ -239,12 +239,11 @@
     }
     </style>
 
-    <!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/apple-touch-icon-144-precomposed.png'); ?>">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/apple-touch-icon-114-precomposed.png'); ?>">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/apple-touch-icon-72-precomposed.png'); ?>">
-                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/apple-touch-icon-57-precomposed.png'); ?>">
-                                   <link rel="shortcut icon" href="<?php echo site_url('ico/favicon.png');?>">
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/A144.png'); ?>">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/A114.png'); ?>">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/A72.png'); ?>">
+                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/A57.png'); ?>">
+                                   <link rel="shortcut icon" href="<?php echo site_url('ico/A32.png');?>">
   </head>
 
   <body>
@@ -255,17 +254,15 @@
     ================================================== -->
 
       <div class="container">
-		<h3 class="muted">
-		<p class="text-right">Asik Nginap</p>
-		</h3>
+		<p class="text-right"><img src="img/logo.jpg"class="img-rounded" /></p>
         <div class="navbar navbar-inverse">
           <div class="navbar-inner">
             <div class="nav-collapse collapse">
               <ul class="nav">
                 
-				<li><a href="<?php echo site_url('beranda') ?>">Beranda</a></li>
-				<li class="active"><a href="#">Penginapan</a></li>
-				<li><a href="<?php echo site_url('kontakkami')?>">Kontak Kami</a></li>
+				<li><a href="<?php echo site_url('beranda') ?>">BERANDA</a></li>
+				<li><a href="<?php echo site_url('penginapan') ?>">PENGINAPAN</a></li>
+				<li><a href="<?php echo site_url('kontakkami')?>">KONTAK KAMI</a></li>
                   </ul>
                 </li>
               
@@ -294,15 +291,15 @@
 	
 	<div class="btn-group">
     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-    Rating
+       Rating
     <span class="caret"></span>
     </a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-    <li><a tabindex="-1" href="#">Action</a></li>
-    <li><a tabindex="-1" href="#">Another action</a></li>
-    <li><a tabindex="-1" href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a tabindex="-1" href="#">Separated link</a></li>
+    <li><a tabindex="-1" href="#">Bintang*</a></li>
+    <li><a tabindex="-1" href="#">Bintang**</a></li>
+    <li><a tabindex="-1" href="#">Bintang***</a></li>
+	<li><a tabindex="-1" href="#">Bintang****</a></li>
+    <li><a tabindex="-1" href="#">Bintang*****</a></li>
     </ul></div>
 	
 	<p>
@@ -313,11 +310,10 @@
     <span class="caret"></span>
     </a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-    <li><a tabindex="-1" href="#">Action</a></li>
-    <li><a tabindex="-1" href="#">Another action</a></li>
-    <li><a tabindex="-1" href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a tabindex="-1" href="#">Separated link</a></li>
+    <li><a tabindex="-1" href="#">< 500.000</a></li>
+    <li><a tabindex="-1" href="#">500.000 - 1.000.000</a></li>
+    <li><a tabindex="-1" href="#">> 1000.000</a></li>
+
     </ul></div>
 	
 	<h3>Jenis</h3>
@@ -326,10 +322,10 @@
 	Hotel</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option2">
-	Inn</label>
+	Guest House</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option3">
-	Villa</label>
+	Inn</label>
 	
 	<h3>Fasilitas</h3>
 	<label class="checkbox">
@@ -340,73 +336,34 @@
 	Kolam Renang</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option3">
-	Dapur</label>
+	Sport Area</label>
 	
 	<h3>Area</h3>
 	<label class="checkbox">
 	<input type="checkbox" value="option1">
-	Gebang</label>
+	Sby Utara</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option2">
-	Keputih</label>
+	Sby Selatan</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option3">
-	Kertajaya
+	Sby Pusat</label>
+	<label class="checkbox">
+	<input type="checkbox" value="option4">
+	Sby Timur</label>
+	<label class="checkbox">
+	<input type="checkbox" value="option5">
+	Sby Barat</label>
 	</label>
 	
 		<!--Sidebar content-->
 		</div>
 		
-		<div class="span9">
+		<div class="span4">
 		
 		<h3>Swiss-Belinn Manyar</h3>
-		<p><img src="img/swissbelinn.jpg"class="img-rounded" align="absmiddle" hspace="180" /></p>
-		
-		<form class="form-horizontal">
-		<div class="control-group">
-		<label class="control-label" for="inputEmail">Nama</label>
-		<div class="controls">
-		<input type="text" id="Nama" placeholder="Nama">
-		</div>
-		</div>
-		
-		<div class="control-group">
-		<label class="control-label" for="inputPassword">Alamat</label>
-		<div class="controls">
-		<input type="text" id="Alamat" placeholder="Alamat">
-		</div>
-		</div>
-		
-		<div class="control-group">
-		<label class="control-label" for="inputPassword">Email</label>
-		<div class="controls">
-		<input type="text" id="Email" placeholder="Email">
-		</div>
-		</div>
-		
-		<div class="control-group">
-		<label class="control-label" for="inputPassword">No Telp</label>
-		<div class="controls">
-		<input type="text" id="No Telp" placeholder="No Telp">
-		</div>
-		</div>
-		
-		<div class="control-group">
-		<label class="control-label" for="inputPassword">Fax</label>
-		<div class="controls">
-		<input type="text" id="Fax" placeholder="Fax">
-		</div>
-		</div>
-		
-		<div class="control-group">
-		<label class="control-label" for="inputPassword">Link</label>
-		<div class="controls">
-		<input type="text" id="Link" placeholder="Link">
-		</div>
-		</div>
-		
-	</form>
-		
+		<p><img src="img/swissbelinn.jpg"class="img-rounded" align="absmiddle" /></p>
+		<br><br>
 		<h5>Rating Hotel Ini! ***</h5>
 		
 		<label for="exampleInputNama1">Nama</label>
@@ -415,10 +372,40 @@
 			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
 		
 		<h5>Komentar</h5>
-			<textarea class="form-control" rows="5" id="InputKomentar1">
+			<textarea class="form-control" class="span5" rows="5" id="InputKomentar1">
 			</textarea><p>
 			<button type="submit" class="btn">Kirim</button></p>
-	
+			
+		</div>
+		<div class="container-fluid">
+		<div class="row-fluid">
+		<div class="span1">
+		<br><br><br><br>
+		
+		<h5>
+		
+		<p class="text-left">Nama     </p> 
+		<p class="text-left">Alamat   </p> 
+		<p class="text-left">Email    </p> 
+		<p class="text-left">No Telp  </p> 
+		<p class="text-left">Fax      </p> 
+		<p class="text-left">Link     </p> 
+		</h5>
+				
+		</div>
+		
+		<div class="row-fluid">
+		<div class="span4">
+		<br><br><br><br>
+		<h5>
+		<p class="text-left">: Swiss-Belinn Manyar</p>
+		<p class="text-left">: Jalan Manyar Kertoarjo No. 100, Jawa Timur</p>
+		<p class="text-left">: sbiid@swiss-belhotel.com</p>
+		<p class="text-left">: (031)-5946868</p>
+		<p class="text-left">: (031)-5947795</p>
+		<p class="text-left">: http://www.swiss-belhotel.com/</p>
+		</h5>
+		
 		</div>
 		</div>
 		</div>

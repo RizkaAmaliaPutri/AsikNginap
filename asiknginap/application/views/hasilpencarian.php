@@ -239,12 +239,11 @@
     }
     </style>
 
-    <!-- Fav and touch icons -->
-   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/apple-touch-icon-144-precomposed.png'); ?>">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/apple-touch-icon-114-precomposed.png'); ?>">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/apple-touch-icon-72-precomposed.png'); ?>">
-                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/apple-touch-icon-57-precomposed.png'); ?>">
-                                   <link rel="shortcut icon" href="<?php echo site_url('ico/favicon.png');?>">
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/A144.png'); ?>">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/A114.png'); ?>">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/A72.png'); ?>">
+                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/A57.png'); ?>">
+                                   <link rel="shortcut icon" href="<?php echo site_url('ico/A32.png');?>">
   </head>
 
   <body>
@@ -255,17 +254,15 @@
     ================================================== -->
 
       <div class="container">
-		<h3 class="muted">
-		<p class="text-right">Asik Nginap</p>
-		</h3>
+		<p class="text-right"><img src="img/logo.jpg"class="img-rounded" /></p>
         <div class="navbar navbar-inverse">
           <div class="navbar-inner">
             <div class="nav-collapse collapse">
               <ul class="nav">
                 
-				<li><a href="<?php echo site_url('beranda') ?>">Beranda</a></li>
-				<li class="active"><a href="#">Penginapan</a></li>
-				<li><a href="<?php echo site_url('kontakkami')?>">Kontak Kami</a></li>
+				<li><a href="<?php echo site_url('beranda') ?>">BERANDA</a></li>
+				<li class="active"><a href="#">PENGINAPAN</a></li>
+				<li><a href="<?php echo site_url('kontakkami')?>">KONTAK KAMI</a></li>
                   </ul>
                 </li>
               
@@ -273,8 +270,6 @@
             </div>
           </div>
         </div>
-
-	<!-- Example row of columns -->
         
 		<div class="container-fluid">
 		<div class="row-fluid">
@@ -296,11 +291,11 @@
     <span class="caret"></span>
     </a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-    <li><a tabindex="-1" href="#">Action</a></li>
-    <li><a tabindex="-1" href="#">Another action</a></li>
-    <li><a tabindex="-1" href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a tabindex="-1" href="#">Separated link</a></li>
+    <li><a tabindex="-1" href="#">Bintang*</a></li>
+    <li><a tabindex="-1" href="#">Bintang**</a></li>
+    <li><a tabindex="-1" href="#">Bintang***</a></li>
+	<li><a tabindex="-1" href="#">Bintang****</a></li>
+    <li><a tabindex="-1" href="#">Bintang*****</a></li>
     </ul></div>
 	
 	<p>
@@ -311,11 +306,10 @@
     <span class="caret"></span>
     </a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-    <li><a tabindex="-1" href="#">Action</a></li>
-    <li><a tabindex="-1" href="#">Another action</a></li>
-    <li><a tabindex="-1" href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a tabindex="-1" href="#">Separated link</a></li>
+    <li><a tabindex="-1" href="#">< 500.000</a></li>
+    <li><a tabindex="-1" href="#">500.000 - 1.000.000</a></li>
+    <li><a tabindex="-1" href="#">> 1000.000</a></li>
+
     </ul></div>
 	
 	<h3>Jenis</h3>
@@ -324,10 +318,10 @@
 	Hotel</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option2">
-	Inn</label>
+	Guest House</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option3">
-	Villa</label>
+	Inn</label>
 	
 	<h3>Fasilitas</h3>
 	<label class="checkbox">
@@ -338,31 +332,62 @@
 	Kolam Renang</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option3">
-	Dapur</label>
+	Sport Area</label>
 	
 	<h3>Area</h3>
 	<label class="checkbox">
 	<input type="checkbox" value="option1">
-	Gebang</label>
+	Sby Utara</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option2">
-	Keputih</label>
+	Sby Selatan</label>
 	<label class="checkbox">
 	<input type="checkbox" value="option3">
-	Kertajaya
+	Sby Pusat</label>
+	<label class="checkbox">
+	<input type="checkbox" value="option4">
+	Sby Timur</label>
+	<label class="checkbox">
+	<input type="checkbox" value="option5">
+	Sby Barat</label>
 	</label>
 	
-		<!--Sidebar content-->
+
 		</div>
 		
-		<div class="span9">
-		<h3>Swiss-Belinn Manyar</h3>
-		<p><img src="img/swissbelinn.jpg"class="img-rounded" align="absmiddle" hspace="180" /></p>
-		<h5>Swiss-Belinn Manyar posisinya disebelah barat hanya berjarak 2.15km dari kampus ITS.Selain paling dekat dengan ITS dan Unair, hotel bintang 3 ini juga menawarkan kemudahan akses dari berbagai tempat menarik di SBY.</h5>
+	<div class="span5">
+		<h3>Guesthouse ITS</h3>
+		<p><img src="img/guesthouseITS.jpg"class="img-rounded" /></p>
+   
+		
+	<hr>
 	
-		</div>
-		</div>
-		</div>	  
+		<h3>Sahid Gunawangsa Hotel</h3>
+		<p><img src="img/sahidgunawangsahotel.jpg"class="img-rounded" /></p>
+		
+	
+	<hr>
+	
+		<h3>Swiss-Belinn Manyar</h3>
+		<p><img src="img/swissbelinn.jpg"class="img-rounded" /></p>
+		
+		
+	</div>
+	
+	<div class="span4">
+	<br><br><br><br>
+	<p>Homestay dengan fasilitas standar ini berada di area dalam ITS sehingga lingkungan nyaman karena jauh dari kebisingan.</p>
+	<p><a class="btn" href="<?php echo site_url('DetailPenginapan')?>">Info Selengkapnya &raquo;</a></p>
+	<br><br><br><br><br><br><br><br><br><br>
+	<p>Hotel ini hanya berjarak 3.63 km dari kampus ITS, selain itu hotel ini juga dekat dengan tempat menarik serta Rumah Sakit Jiwa, dan Rumah Sakit Internasional Surabaya</p>
+	<p><a class="btn" href="<?php echo site_url('DetailPenginapan')?>">Info Selengkapnya &raquo;</a></p>
+	<br><br><br><br><br><br><br><br><br>
+	<p>Swiss-Belinn Manyar posisinya disebelah barat hanya berjarak 2.15km dari kampus ITS.Selain paling dekat dengan ITS dan Unair, hotel bintang 3 ini juga menawarkan kemudahan akses dari berbagai tempat menarik di SBY.</p>
+	<p><a class="btn" href="<?php echo site_url('DetailPenginapan')?>">Info Selengkapnya &raquo;</a></p>
+	</div>
+	
+	</div>
+	</div>	  
 	</div>
     </div>
 

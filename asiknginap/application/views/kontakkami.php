@@ -239,11 +239,11 @@
     }
     </style>
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/apple-touch-icon-144-precomposed.png'); ?>">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/apple-touch-icon-114-precomposed.png'); ?>">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/apple-touch-icon-72-precomposed.png'); ?>">
-                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/apple-touch-icon-57-precomposed.png'); ?>">
-                                   <link rel="shortcut icon" href="<?php echo site_url('ico/favicon.png');?>">
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo site_url('ico/A144.png'); ?>">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('ico/A114.png'); ?>">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('ico/A72.png'); ?>">
+                    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('ico/A57.png'); ?>">
+                                   <link rel="shortcut icon" href="<?php echo site_url('ico/A32.png');?>">
   </head>
 
   <body>
@@ -254,17 +254,15 @@
     ================================================== -->
 
       <div class="container">
-		<h3 class="muted">
-		<p class="text-right">Asik Nginap</p>
-		</h3>
+		<p class="text-right"><img src="img/logo.jpg"class="img-rounded" /></p>
         <div class="navbar navbar-inverse">
           <div class="navbar-inner">
             <div class="nav-collapse collapse">
               <ul class="nav">
                 
-				<li><a href="<?php echo site_url('beranda') ?>">Beranda</a></li>
-				<li><a href="<?php echo site_url('penginapan') ?>">Penginapan</a></li>
-				<li class="active"><a href="#">Kontak Kami</a></li>
+				<li><a href="<?php echo site_url('beranda') ?>">BERANDA</a></li>
+				<li><a href="<?php echo site_url('penginapan') ?>">PENGINAPAN</a></li>
+				<li class="active"><a href="#">KONTAK KAMI</a></li>
                   </ul>
                 </li>
               
